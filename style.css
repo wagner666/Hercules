@@ -1,0 +1,77 @@
+/* Estilos gerais */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.head {
+    background-color: bisque;
+    padding: 10px 0;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: aqua;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(124, 84, 31);
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.img1, .img2, .img3 {
+    flex: 1;
+    margin: 10px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 30%;
+    box-sizing: border-box;
+}
+
+.img1 {
+    text-align: left;
+}
+
+.img2 {
+    text-align: center;
+}
+
+.img3 {
+    text-align: right;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.img1 p, .img2 p, .img3 p {
+    margin-top: 10px;
+    text-align: center;
+}
